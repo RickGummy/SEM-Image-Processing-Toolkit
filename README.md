@@ -13,7 +13,6 @@ This toolkit is designed to provide researchers with tools for processing and an
 3. Create a virutal environment and activate it:
    ```bash
    python -m venv venv
-   ```bash
    source venv/bin/activate # On Windows use 'venv\Scripts\activate
    ```
 4. Install the required packages:
