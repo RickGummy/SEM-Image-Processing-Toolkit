@@ -45,7 +45,7 @@ class TestContourDetection(unittest.TestCase):
         filtered_contours = filter_contours(contours)
         contour_image = draw_contours(original_image, filtered_contours)
         self.assertIsNotNone(contour_image)
-        cv2.imwrite('tests/C1-3_A_m06_contoured_image.tif', contour_image)
+        cv2.imwrite('data/processed/C1-3_A_m06_contoured_image.tif', contour_image)
         
 if __name__ == '__main__':
     unittest.main()
